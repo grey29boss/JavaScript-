@@ -31,15 +31,18 @@ scores;
 ##### Решение:
 
 ````javascript
-let x=Math.floor(Math.random() * 10);
-let y=Math.floor(Math.random() * 10);
-scores["Соня"] += x;
-scores["Сергей"] += y;
+let scores = {};
+scores["Соня"] = Math.floor(Math.random() * 10);
+scores["Сергей"] = Math.floor(Math.random() * 10);
 scores;
-{Соня: 50, Сергей: 42}
-  Сергей: 84
-  Соня: 83
+scores["Соня"] += Math.floor(Math.random() * 10);
+scores["Сергей"] += Math.floor(Math.random() * 10);
+scores;
 
 ````
-
+````javascript
+{Соня: 9, Сергей: 18}
+  Сергей: 18
+  Соня: 9
+````
 [Назад](README.md)
