@@ -16,3 +16,4 @@ myCrazyObject["some array"][2].number;
 ````javascript
 123
 ````
+[Назад](README.md)
