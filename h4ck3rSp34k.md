@@ -13,10 +13,9 @@ var output = "";
 
 `````javascript
 var input = "javascrit is awesome";
-// a=4 e=3 i=1 o=0 s=5
 var output ="";
 for (var y = 0; y < input.length; y++) {
-    if (input[y] === "a"){output += "4";}
+    if (input[y] === "a"){output += "4";} // Не забывайте ставить ";", я не поставил и ничего не получалось.
         else if (input[y] === "e") {output += "3";}
         else if (input[y] === "i") {output += "1";}
         else if (input[y] === "o") {output += "0";}
