@@ -7,4 +7,4 @@
 ##### [2. Вглубь объектов и массивов](array.md)
 ##### [3. Прекрасные животные](beautifulAnimals.md)
 ##### [4. Генератор случайных строк](randomString.md)
-##### [4. h4ck3r sp34k](h4ck3r sp34k.md)
+##### [5. hacker speak](h4ck3r sp34k.md)
